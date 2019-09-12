@@ -11,7 +11,7 @@
 
 enum DNA { A,C,G,T };
 
-#define FILEHANDLE "input1.txt"
+#define FILEHANDLE "input2.txt"
 
 class Profiler{
 private:
@@ -62,7 +62,6 @@ private:
         char consensusValues[COL];
         int scores[COL];
 
-
         for(int j = 0; j < COL; j++) {
             int largest = 0;
             int largestNucleotide = 0;
@@ -97,17 +96,19 @@ private:
 
         std::cout << "Consensus\n";
         std::cout << "  ";
-        for(int i = 0; i < COL; i++) {
-            std::cout << consensusValues[i] << " " ;
-        }
-        std::cout << "\n  ";
         int score = 0;
         for(int i = 0; i < COL; i++) {
             std::cout << scores[i] << " " ;
             score += scores[i];
         }
 
-        std::cout << std::endl << std::endl << "SCORE: " << score << std::endl;
+        std::cout << "\n  ";
+        for(int i = 0; i < COL; i++) {
+            std::cout << consensusValues[i] << " " ;
+            consensus += (consensusValues[i]);
+        }
+        std::cout << std::endl;
+
     }
 
 public:
@@ -116,11 +117,18 @@ public:
         initializeProfileMatrix();
         generateProfileMatrix();
         generateConsensus();
+        std::cout << getHammingDistances() << std::endl;
     }
 
     void printStrings() {
-        for(const std::string s: dnaStrings)
-            std::cout << s << '\n';
+        for(const std::string s: dnaStrings){
+            std::cout << "  ";
+            int length = s.length();
+            for(int i = 0; i < length; i++) {
+                std::cout << s.at(i) << " ";
+            }
+            std::cout << std::endl;
+        }
     }
 
     void printProfileMatrix() {
@@ -144,8 +152,20 @@ public:
 
     }
 
-
-
+    // This function calculates the hamming distance between each
+    // 8-mer and the consensus.
+    int getHammingDistances() {
+        int distance = 0;
+        for(const std::string s: dnaStrings) {
+            int size = s.length();
+            for(int i = 0; i < size; i++) {
+                if(consensus.at(i) != s.at(i)) {
+                    distance++;
+                }
+            }
+        }
+        return distance;
+    }
 
 };
 
