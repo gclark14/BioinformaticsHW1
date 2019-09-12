@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/PartialDigester.h
+vector
+-
+iostream
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/iostream
+algorithm
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/algorithm
+
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/Profiler.h
+vector
+-
+iostream
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/iostream
+fstream
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/fstream
+
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/Substring.h
+string
+-
+
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/main.cpp
+iostream
+-
+PartialDigester.h
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/PartialDigester.h
+Substring.h
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/Substring.h
+Profiler.h
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/Profiler.h
+

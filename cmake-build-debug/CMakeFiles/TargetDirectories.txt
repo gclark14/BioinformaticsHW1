@@ -1,0 +1,3 @@
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/CMakeFiles/BioinformaticsHW1.dir
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
