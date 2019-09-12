@@ -14,8 +14,7 @@ int main() {
 
     Profiler profiler;
 
-
-    //profiler.printProfileMatrix();
+    profiler.printProfileMatrix();
 
 
 

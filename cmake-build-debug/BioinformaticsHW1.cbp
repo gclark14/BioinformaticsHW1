@@ -8,91 +8,91 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BioinformaticsHW1">
-				<Option output="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/BioinformaticsHW1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug"/>
+				<Option output="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/BioinformaticsHW1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 BioinformaticsHW1"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 BioinformaticsHW1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="BioinformaticsHW1/fast">
-				<Option output="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/BioinformaticsHW1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug"/>
+				<Option output="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/BioinformaticsHW1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 BioinformaticsHW1/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 BioinformaticsHW1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/unriv/CLionProjects/BioinformaticsHW1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/unriv/CLionProjects/BioinformaticsHW1/PartialDigester.h">
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PartialDigester.h">
 			<Option target="BioinformaticsHW1"/>
 		</Unit>
-		<Unit filename="C:/Users/unriv/CLionProjects/BioinformaticsHW1/Profiler.h">
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/Profiler.h">
 			<Option target="BioinformaticsHW1"/>
 		</Unit>
-		<Unit filename="C:/Users/unriv/CLionProjects/BioinformaticsHW1/Substring.h">
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/Substring.h">
 			<Option target="BioinformaticsHW1"/>
 		</Unit>
-		<Unit filename="C:/Users/unriv/CLionProjects/BioinformaticsHW1/main.cpp">
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/main.cpp">
 			<Option target="BioinformaticsHW1"/>
 		</Unit>
-		<Unit filename="C:/Users/unriv/CLionProjects/BioinformaticsHW1/CMakeLists.txt">
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

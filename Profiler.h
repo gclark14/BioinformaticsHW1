@@ -59,38 +59,55 @@ private:
     void generateConsensus() {
         const int COL = profileMatrix.at(0).size();
 
-        int consensusValues[COL];
+        char consensusValues[COL];
+        int scores[COL];
+
 
         for(int j = 0; j < COL; j++) {
             int largest = 0;
-            for(int i = A; i < T; i++) {
-                if (profileMatrix.at(A).at(j) > largest) {
-                    largest = A;
-                } else if(profileMatrix.at(C).at(j) > largest) {
-                    largest = C;
-                } else if(profileMatrix.at(G).at(j) > largest) {
-                    largest = G;
-                } else {
-                    largest = T;
-                }
+            int largestNucleotide = 0;
+            if (profileMatrix.at(A).at(j) > largest) {
+                largest = profileMatrix.at(A).at(j);
+                largestNucleotide = A;
             }
-            if (largest == A) {
-                consensusValues[j] = A;
-            } else if (largest == C) {
-                consensusValues[j] = C;
-            } if (largest == G) {
-                consensusValues[j] = G;
+            if (profileMatrix.at(C).at(j) > largest) {
+                largest = profileMatrix.at(C).at(j);
+                largestNucleotide = C;
+            }
+            if (profileMatrix.at(G).at(j) > largest) {
+                largest = profileMatrix.at(G).at(j);
+                largestNucleotide = G;
+            }
+            if (profileMatrix.at(T).at(j) > largest) {
+                largest = profileMatrix.at(T).at(j);
+                largestNucleotide = T;
+            }
+            scores[j] = largest;
+            if (largestNucleotide == A) {
+                consensusValues[j] = 'A';
+            } else if (largestNucleotide == C) {
+                consensusValues[j] = 'C';
+            }
+            else if (largestNucleotide == G) {
+                consensusValues[j] = 'G';
             } else {
-                consensusValues[j] = T;
+                consensusValues[j] = 'T';
             }
         }
 
+        std::cout << "Consensus\n";
+        std::cout << "  ";
         for(int i = 0; i < COL; i++) {
             std::cout << consensusValues[i] << " " ;
         }
+        std::cout << "\n  ";
+        int score = 0;
+        for(int i = 0; i < COL; i++) {
+            std::cout << scores[i] << " " ;
+            score += scores[i];
+        }
 
-        std::cout << std::endl;
-
+        std::cout << std::endl << std::endl << "SCORE: " << score << std::endl;
     }
 
 public:
@@ -101,21 +118,28 @@ public:
         generateConsensus();
     }
 
-
     void printStrings() {
         for(const std::string s: dnaStrings)
             std::cout << s << '\n';
     }
 
-
-
-
     void printProfileMatrix() {
+        int j = 0;
         for(const std::vector<int> profiles: profileMatrix) {
+            if(j == 0) {
+                std::cout << "A ";
+            } else if(j == 1) {
+                std::cout << "C ";
+            } else if(j == 2) {
+                std::cout << "G ";
+            } else {
+                std::cout << "T ";
+            }
             for(const int i: profiles) {
                 std::cout << i << " ";
             }
             std::cout << std::endl;
+            j++;
         }
 
     }
@@ -124,9 +148,5 @@ public:
 
 
 };
-
-
-
-
 
 #endif //BIOINFORMATICSHW1_PROFILER_H
