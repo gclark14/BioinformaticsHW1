@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PDP.h
+string
+-
+vector
+-
+algorithm
+-
+
 C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PartialDigester.h
 vector
 -
@@ -35,4 +43,6 @@ Substring.h
 C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/Substring.h
 Profiler.h
 C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/Profiler.h
+PDP.h
+C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PDP.h
 

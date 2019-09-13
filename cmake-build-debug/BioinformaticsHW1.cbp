@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PDP.h">
+			<Option target="BioinformaticsHW1"/>
+		</Unit>
 		<Unit filename="C:/Users/Gabriel/CLionProjects/BioinformaticsHW_1/PartialDigester.h">
 			<Option target="BioinformaticsHW1"/>
 		</Unit>
