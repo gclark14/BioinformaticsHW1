@@ -9,7 +9,7 @@ int main() {
     std::vector<int> L2 = { 1, 2, 2, 3, 5, 6, 7, 8, 8, 10 };
 
     PDP pdp(L2);
-    pdp.printX();
+    //pdp.printX();
 
     //PartialDigester pd(L);
     //pd.printX();
@@ -18,7 +18,7 @@ int main() {
     //Substring str("We think in generalities, but we live in details.", "live");
     //std::cout << str.indexOfFirstSubstring() << '\n';
 
-    //Profiler profiler;
+    Profiler profiler;
 
     //profiler.printProfileMatrix();
     //profiler.printStrings();
